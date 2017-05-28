@@ -1,4 +1,4 @@
-# Paragon protocol reversal, first steps.
+# Paradox/magellan protocol reversal, first steps.
 
 ## Why?
 
