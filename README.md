@@ -27,7 +27,7 @@ At last i opned the unit and connected osciloscope to pin1 of TH 72012 (ASKDATA)
 
 Each packet consist of synchronization header followed by 4 bytes of data and finished with small footer.
 
-* Sync header: `800us high` -> (`200us low` -> `200us high`) x 13 times -> `1200ms high` -> `400ms low`
+* Sync header: `800us high` -> (`200us low` -> `200us high`) x 13 times -> `400ms low` -> `1200ms high` -> `400ms low`
 * Data part: 32 bits where each bit is one of:
   - `400us high` -> `200us low`
   - `200us high` -> `400us low`
